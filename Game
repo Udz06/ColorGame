@@ -1,0 +1,10 @@
+package second;
+
+import OopGame.ColorGame;
+
+public class Game {
+	    public static void main(String[] args) {
+	        ColorGame colorGame = new ColorGame();
+	        colorGame.runGame();
+	    }
+	}
