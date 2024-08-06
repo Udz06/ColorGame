@@ -1,0 +1,22 @@
+package OopGame;
+
+import java.util.Random;
+
+public class Colors {
+	//String array
+    public static String[] colorOptions = {"Blue", "Red", "White", "Pink", "Green", "Yellow"};
+    
+    
+    
+    //method
+    public static int[] getRandomWinningColors() {
+        Random random = new Random();
+        int[] winningColors = new int[3];
+        for (int i = 0; i < 3; i++) {
+            winningColors[i] = random.nextInt(6);
+        }
+        return winningColors;
+    }
+
+
+}
