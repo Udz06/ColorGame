@@ -1,0 +1,24 @@
+package OopGame;
+
+	public class Banker {
+		
+	    private double balance;
+	    
+	    
+	    public Banker(double initialBalance) {
+	        balance = initialBalance;
+	    }
+
+	    public double getBalance() {
+	        return balance;
+	    }
+
+	    public void addToBalance(double amount) {
+	        balance += amount;
+	    }
+
+	    public void deductFromBalance(double amount) {
+	        balance -= amount;
+	    }
+	}
+
